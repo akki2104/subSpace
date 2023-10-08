@@ -8,9 +8,7 @@
     "start":"nodemon server.js"
   },
   "keywords": [
-    "subspace",
-    "intern",
-    "assignment"
+    "subspace"
   ],
   "author": "akash yadav",
   "license": "ISC",
