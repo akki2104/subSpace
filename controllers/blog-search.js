@@ -1,9 +1,10 @@
 
 const axios = require('axios');
 const _ = require('lodash');
+require("dotenv").config();
 
-const API_URL = 'https://intent-kit-16.hasura.app/api/rest/blogs'; 
-const ADMIN_SECRET = '32qR4KmXOIpsGPQKMqEJHGJS27G5s7HdSKO3gdtQd2kv5e852SiYwWNfxkZOBuQ6';
+const API_URL = process.env.API_URL;
+const ADMIN_SECRET = process.env.ADMIN_SECRET;
 
 const blogSearch = async (req, res, next) => {
     try {

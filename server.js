@@ -4,7 +4,7 @@ const express = require('express');
 const routes=require("./routes/route")
 const app = express();
 const port = 3000; // Set your desired port number
-
+require("dotenv").config();
 
 
 // middleware to be implemented
